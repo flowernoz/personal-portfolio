@@ -21,36 +21,60 @@ const Projects = () => {
           des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
           src={projectOne}
+          links={[
+            "https://github.com/flowernoz/Alif",
+            "https://alif-psi.vercel.app/",
+          ]}
         />
         <ProjectsCard
           title="E-commerce Website"
           des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
           src={projectTwo}
+          links={[
+            "https://github.com/flowernoz/uzum-shop",
+            "https://uzum-shop.vercel.app/",
+          ]}
         />
         <ProjectsCard
           title="E-commerce Website"
           des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
           src={projectThree}
+          links={[
+            "https://github.com/flowernoz/Flower_Shop-bootstrap",
+            "https://flowershop-mu.vercel.app/",
+          ]}
         />
         <ProjectsCard
           title="E-commerce Website"
           des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
           src={projectThree}
+          links={[
+            "https://github.com/flowernoz/Flower_Shop-bootstrap",
+            "https://flowershop-mu.vercel.app/",
+          ]}
         />
         <ProjectsCard
           title="E-commerce Website"
           des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
           src={projectOne}
+          links={[
+            "https://github.com/flowernoz/Alif",
+            "https://alif-psi.vercel.app/",
+          ]}
         />
         <ProjectsCard
           title="E-commerce Website"
           des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
           src={projectTwo}
+          links={[
+            "https://github.com/flowernoz/uzum-shop",
+            "https://uzum-shop.vercel.app/",
+          ]}
         />
       </div>
     </section>
