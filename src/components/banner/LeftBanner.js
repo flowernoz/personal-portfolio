@@ -59,7 +59,7 @@ const LeftBanner = () => {
               <FaTelegram />
             </a>
             <a
-              href="https://www.linkedin.com/in/gulnoza-tursunova-7b30b4280"
+              href="https://www.linkedin.com/in/flowernoza"
               className="bannerIcon"
             >
               <FaLinkedinIn />

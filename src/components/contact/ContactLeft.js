@@ -20,25 +20,36 @@ const ContactLeft = () => {
           ipsam autem cumque, accusantium dicta odio.
         </p>
         <p className="text-base text-gray-400 flex items-center gap-2">
-          Phone: <span className="text-lightText">+998 932620323</span>
+          Phone:{" "}
+          <a href="tel:+998932620323" className="text-lightText">
+            +998 932620323
+          </a>
         </p>
         <p className="text-base text-gray-400 flex items-center gap-2">
           Email:{" "}
-          <span className="text-lightText">flowernozatursunova@gmail.com</span>
+          <a
+            href="mailto:flowernozatursunova@gmail.com"
+            className="text-lightText"
+          >
+            flowernozatursunova@gmail.com
+          </a>
         </p>
       </div>
       <div className="flex flex-col gap-4">
         <h2 className="text-base uppercase font-titleFont mb-4">Find me in</h2>
         <div className="flex gap-4">
-          <span className="bannerIcon">
+          <a href="https://twitter.com/FlowernozaT" className="bannerIcon">
             <FaTwitter />
-          </span>
-          <span className="bannerIcon">
+          </a>
+          <a href="https://t.me/nozagul" className="bannerIcon">
             <FaTelegram />
-          </span>
-          <span className="bannerIcon">
+          </a>
+          <a
+            href="https://www.linkedin.com/in/flowernoza"
+            className="bannerIcon"
+          >
             <FaLinkedinIn />
-          </span>
+          </a>
         </div>
       </div>
     </div>
