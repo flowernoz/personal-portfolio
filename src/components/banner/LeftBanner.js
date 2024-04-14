@@ -4,7 +4,6 @@ import {
   FaLinkedinIn,
   FaReact,
   FaNodeJs,
-  FaICursor,
   FaTelegram,
 } from "react-icons/fa";
 import { SiNextdotjs } from "react-icons/si";
@@ -13,7 +12,7 @@ import { DiJavascript } from "react-icons/di";
 
 const LeftBanner = () => {
   const [text] = useTypewriter({
-    words: ["IT Mentor.", "Full Stack Developer."],
+    words: ["an IT Mentor.", "a Full Stack Developer."],
     loop: true,
     typeSpeed: 50,
     deleteSpeed: 40,
@@ -28,11 +27,10 @@ const LeftBanner = () => {
           <span className="text-designColor capitalize">Gulnoza Tursunova</span>
         </h1>
         <h2 className="text-4xl font-bold text-white">
-          a <span>{text}</span>
+           <span>{text}</span>
           <Cursor
             cursor
             cursorBlinking="true"
-            cursorStyle={<FaICursor />}
             cursorColor="#ff014f"
           />
         </h2>
