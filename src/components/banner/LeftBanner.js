@@ -1,11 +1,6 @@
 import React from "react";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
-import {
-  FaLinkedinIn,
-  FaReact,
-  FaNodeJs,
-  FaTelegram,
-} from "react-icons/fa";
+import { FaLinkedinIn, FaReact, FaNodeJs, FaTelegram } from "react-icons/fa";
 import { SiNextdotjs } from "react-icons/si";
 import { MdEmail } from "react-icons/md";
 import { DiJavascript } from "react-icons/di";
@@ -23,16 +18,12 @@ const LeftBanner = () => {
       <div className="flex flex-col gap-5">
         <h4 className=" text-lg font-normal">WELCOME TO MY WORLD</h4>
         <h1 className="text-6xl font-bold text-white">
-          Hi, I'm{" "}
-          <span className="text-designColor capitalize">Gulnoza Tursunova</span>
+          Hi, I'm
+           <span className="text-designColor capitalize"> Gulnoza Tursunova</span>
         </h1>
         <h2 className="text-4xl font-bold text-white">
-           <span>{text}</span>
-          <Cursor
-            cursor
-            cursorBlinking="true"
-            cursorColor="#ff014f"
-          />
+          <span>{text}</span>
+          <Cursor cursor cursorBlinking="true" cursorColor="#ff014f" />
         </h2>
         <p className="text-base font-bodyFont leading-6 tracking-wide">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus

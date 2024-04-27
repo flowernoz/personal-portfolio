@@ -1,5 +1,5 @@
 import logo from "./images/logo.png";
-import bannerImg from "./images/bannerimg.png";
+import bannerImg from "./images/banner.png";
 import projectOne from "./images/projects/Screen Shot 2024-04-07 at 10.13.33 PM.png";
 import projectTwo from "./images/projects/Screen Shot 2024-04-07 at 10.16.42 PM.png";
 import projectThree from "./images/projects/Screen Shot 2024-04-07 at 10.22.21 PM.png";
